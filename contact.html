@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vit Day 2</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- my google font extarnal link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ h1{
+   font-size: 300%;color:white ; 
+   text-align: center;
+  font-family: 'Lato', sans-serif;
+   padding-bottom: 30px;
+ }
+h2 {font-size: 300%;color:black ; 
+   text-align: center;
+  font-family: 'Lato', sans-serif;
+   padding-bottom: 30px;}
+   p
+   {
+    font-size: 200%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .p1{font-size: 200%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;}
+   
+    .footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/*
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+</style>
+</head>
+<!-- These are command lines -->
+<body>
+  <!-- Navbar code here -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="lexlogo.png" alt="logo" style="width:200px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto ">
+    <li class="nav-item">
+      <a class="nav-link"  href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus.html">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+<!-- Navbar code end here -->
+
+<!-- Contact us page -->
+<br>
+<h2 style="text-align: center;">Contact Us</h2>
+<div class="container">
+  <!-- my row -->
+  <!-- with 2 columns -1st col : image & 2nd col : input form -->
+  <div class="row">
+    <!-- 1st col with image-->
+    <div class="col">
+      <img src="contact.jfif">
+      
+    </div>
+    <!-- 2nd col with form-->
+    <div class="col">
+
+      <!-- copy paste all contact form-->
+      <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+  </div>
+  <!-- name -->
+   <div class="form-group">
+    <label for="email">Name:</label>
+    <input type="email" class="form-control" placeholder="Enter your name" id="email">
+  </div>
+  <!-- message-->
+   <div class="form-group">
+    <label for="email">Message</label>
+    <input type="email" class="form-control" placeholder="Enter your message" id="email" style="height: 100px;">
+  </div>
+  
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-dark" style="width:200px">Submit</button>
+</form>
+      
+    </div>
+  </div>
+</div>
+<br>
+  <br>
+  <br>
+  <br><br><br><br>
+  <!-- My Footer start here-->
+
+</section>
+<div class="footer">
+  <br>
+  <h6>Powered by V.I.T </h6>
+  <br>
+  <br>
+<!-- My social media button insdie footer-->
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<br>
+<br>
+</div>
+</body>
+</html>
